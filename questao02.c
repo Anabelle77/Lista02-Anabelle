@@ -1,3 +1,5 @@
+//2) Faça um programa que leia dois valores nas variáveis A e B respectivamente, troque o valor contido na variável A pelo valor em B, e o valor em B pelo valor em A,
+isto é, imprimiremos A e B com os valores trocados.
 #include <stdio.h>
 
 int main() {
