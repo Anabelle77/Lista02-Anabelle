@@ -1,5 +1,4 @@
-//4) Faça um programa que leia dois valores inteiros (X e Y) e calcule X na potência Y.
-Observação: utilizar a função matemática.
+//4) Faça um programa que leia dois valores inteiros (X e Y) e calcule X na potência Y. Observação: utilizar a função matemática.
 #include <stdio.h>
 #include <math.h>
 
