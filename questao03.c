@@ -1,3 +1,4 @@
+//3) Faça um programa que leia cinco números inteiros, calcule e escreva a soma, o produto e a média dos números lidos.
 #include <stdio.h>
 
 int main() {
