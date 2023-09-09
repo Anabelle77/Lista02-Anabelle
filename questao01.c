@@ -1,3 +1,4 @@
+//1) Faça um programa que leia a idade de uma pessoa expressa em anos, meses e dias e mostre-a expressa apenas em dias.
 #include <stdio.h>
 
 int main() {
@@ -8,6 +9,5 @@ int main() {
     int idadeEmDias = anos * 365 + meses * 30 + dias;
 
     printf("A idade em dias é: %d dias\n", idadeEmDias);
-
     return 0;
 }
