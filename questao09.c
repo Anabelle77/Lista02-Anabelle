@@ -1,18 +1,20 @@
-//9. Entre com a base e a altura de um retângulo e mostre os resultados:
-//a. Perímetro (Perímetro é igual à soma dos 4 lados)
-//b. Área (Área é igual à lado vezes lado)
-#include<stdio.h>
-int main(void){
-  int base,altura,peri,area;
-  printf("Insira a base: ");
-  scanf("%d",&base);
-  printf("Insira o lado: ");
-  scanf("%d",&altura);
+//9) Faça um programa que leia as variáveis y e z. Após, calcule e mostre o valor de x, dado pela expressão: x = √(y*(y^22 + z^33))
+#include <stdio.h>
+#include <math.h>
 
-  peri = (base*2 + altura*2);
-  area = (base*altura);
+int main() {
+    double y, z, x;
 
-  printf("O perimetro é: %d\nA área é: %d",peri,area);
-  return 0;
-  
+    printf("Digite o valor de y: ");
+    scanf("%lf", &y);
+
+    printf("Digite o valor de z: ");
+    scanf("%lf", &z);
+
+    double temp = ((pow(y, 22)) + (pow(z, 33)));
+    x = sqrt(y * temp);
+
+    printf("O valor de x é: %f\n", x);
+
+    return 0;
 }
