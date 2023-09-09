@@ -1,3 +1,4 @@
+//6) Faça um programa que leia a idade de uma pessoa expressa em dias e mostre-a expressa em anos, meses e dias.
 #include <stdio.h>
 
 int main() {
