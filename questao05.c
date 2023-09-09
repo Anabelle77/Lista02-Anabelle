@@ -1,3 +1,4 @@
+//5) Faça um programa que leia A, B e C e calcule a seguinte fórmula: (7*C+5*B) /(2*A*3), armazenando-a na variável Result.
 #include <stdio.h>
 
 int main() {
